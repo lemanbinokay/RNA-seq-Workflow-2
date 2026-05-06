@@ -48,9 +48,10 @@ Bu adımı çalıştırmadan önce GENCODE annotation dosyasını indirmeniz ger
 İndirme linki:  
 https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_46/gencode.v46.primary_assembly.basic.annotation.gtf.gz  
 
-Terminalden indir: wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_49/gencode.v49.primary_assembly.basic.annotation.gtf.gz
 gunzip gencode.v46.primary_assembly.basic.annotation.gtf.gz
+
 mv gencode.v46.primary_assembly.basic.annotation.gtf data/
+
 ---
 
 ## 03_PCA.R  
